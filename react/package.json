@@ -1,14 +1,16 @@
 {
   "dependencies": {
-    "react": "15.4.2",
-    "react-dom": "15.4.2"
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "babel-jest": "*",
     "babel-preset-env": "*",
     "babel-preset-react": "*",
+    "eslint": "^4.11.0",
+    "eslint-plugin-react": "^7.5.1",
     "jest": "*",
-    "react-addons-test-utils": "15.4.2"
+    "react-test-renderer": "*"
   },
   "scripts": {
     "test": "jest"
