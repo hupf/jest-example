@@ -24,6 +24,7 @@ describe('UserComponent', () => {
   it('renders correctly', () => {
     comp.firstName = 'John';
     comp.lastName = 'Doe';
+    comp.username = 'jdoe';
     fixture.detectChanges();
     expect(el.querySelector('.user-fullname').textContent).toContain('John Doe');
   });

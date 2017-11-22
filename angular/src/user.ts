@@ -14,5 +14,6 @@ export class UserComponent {
 
   @Input() firstName: string;
   @Input() lastName: string;
+  @Input() username: string;
 
 }
